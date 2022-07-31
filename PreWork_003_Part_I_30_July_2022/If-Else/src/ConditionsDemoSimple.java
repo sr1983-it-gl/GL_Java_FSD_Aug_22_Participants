@@ -1,7 +1,10 @@
 
 public class ConditionsDemoSimple {
 
-	public static void main(String[] args) {
+	public static void main2(String[] args) {
+		
+//		name=GreatLeaning = args[0]
+//		myFavColor=green args[1]
 		
 		boolean someCondition = true;
 		
