@@ -1,0 +1,32 @@
+5 ! -> 5 * 4 * 3 * 2 * 1 = 120
+
+intermediate-value = 1
+
+loop (5 ...... 1)
+
+	1-st iteration
+		5
+		5 * 1 = 5
+		intermediate-value = 5
+		
+	2-nd iteration
+		4
+		4 * 5
+		intermediate-value = 20
+	
+	3rd iteration
+		3
+		3 * intermediate-value [20 ]
+		intermediate-value = 60
+		
+	4th iteration
+		2
+		2 * intermediate-value [60 ]
+		intermediate-value = 120
+		
+	5th iteration
+		1
+		1 * intermediate-value [120 ]
+		120
+
+120

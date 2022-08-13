@@ -1,0 +1,44 @@
+* * * * * 
+* * * * * 
+* * * * * 
+* * * * * 
+* * * * * 
+
+----------------
+
+        * 
+      * * 
+    * * * 
+  * * * * 
+* * * * * 
+
+------------
+
+outerIndex = 1
+	innerIndex
+		1 ... 5
+		
+		1 2 3 4 [EMPTY SPACE]
+		5 		[STAR]
+		[count - outerIndex]
+		(5 - 1) = 4
+		
+
+outerIndex = 2
+		
+	innerIndex =
+		1 ... 5
+		
+		1 2 3 [EMPTY SPACE]
+		4,5 		[STAR]	
+
+		[count - outerIndex]
+		(5 - 2) = 3
+		
+outerIndex = 3
+		
+	innerIndex =
+		1 ... 5
+		
+		1 2  [EMPTY SPACE]
+		3, 4, 5 		[STAR]	
