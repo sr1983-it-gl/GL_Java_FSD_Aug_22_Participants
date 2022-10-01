@@ -1,4 +1,9 @@
 
+/**
+ * This class provides a structural representation for the
+ * physical hard drive
+ *
+ */
 public class HardDrive {
 
 	public String manufacturerName;
