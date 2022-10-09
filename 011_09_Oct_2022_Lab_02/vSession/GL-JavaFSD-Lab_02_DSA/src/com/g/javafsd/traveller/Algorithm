@@ -1,0 +1,12 @@
+1)
+	Remainder IS 0
+		Stop Processing
+		Success
+		
+	Remainder NOT 0
+		Failure
+
+
+2) 
+	Quotient IS 0
+		Dont consider the denommination value as part of the output	
