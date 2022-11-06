@@ -3,7 +3,8 @@ package com.gl.javafsd.dsa.balancedbrackets;
 public class BalancedBracketsCheckerTest {
 
 	public static void main(String[] args) {
-				
+			
+		test("");
 		test("([[{}]])");
 		
 		test("([[{}]]))");

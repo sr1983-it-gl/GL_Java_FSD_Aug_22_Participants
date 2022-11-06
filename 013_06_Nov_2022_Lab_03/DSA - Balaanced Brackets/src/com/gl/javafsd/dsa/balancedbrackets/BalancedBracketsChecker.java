@@ -7,7 +7,7 @@ import java.util.Stack;
 public class BalancedBracketsChecker {
 
 	private String brackets;
-	
+		
 	private Set<Character> openBracketsSet;
 	private Set<Character> closedBracketsSet;
 	
@@ -22,6 +22,10 @@ public class BalancedBracketsChecker {
 	}
 	
 	public boolean check() {
+		
+		if (brackets.length() == 0) {
+			return false;
+		}
 		
 		// 3, 5, 7, 9
 		if (brackets.length() %2 != 0) {
