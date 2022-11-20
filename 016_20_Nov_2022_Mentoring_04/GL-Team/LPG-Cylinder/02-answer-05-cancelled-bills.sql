@@ -1,0 +1,1 @@
+insert into cancelled_bills values(2, '2021-10-04', 'Insufficient Amount');

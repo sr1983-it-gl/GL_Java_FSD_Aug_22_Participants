@@ -1,0 +1,9 @@
+insert into orders (Date, Cust_Id, Quantity, Payment_type, Status) values('2021-10-01', 6, 1, 'online', 'cancelled');
+insert into orders (Date, Cust_Id, Quantity, Payment_type, Status) values('2021-10-01', 3, 1, 'POD', 'Ordered');
+insert into orders (Date, Cust_Id, Quantity, Payment_type, Status) values('2021-10-02', 5, 4, 'POD', 'Cancelled');
+insert into orders (Date, Cust_Id, Quantity, Payment_type, Status) values('2021-10-03', 6, 1, 'POD',	'Ordered');
+insert into orders (Date, Cust_Id, Quantity, Payment_type, Status) values('2021-10-04', 3, 1, 'Online', 'Ordered');
+insert into orders (Date, Cust_Id, Quantity, Payment_type, Status) values('2021-11-05', 6, 1, 'Online', 'Ordered');
+insert into orders (Date, Cust_Id, Quantity, Payment_type, Status) values('2021-11-06', 4, 4, 'Online', 'Ordered');
+insert into orders (Date, Cust_Id, Quantity, Payment_type, Status) values('2021-11-07', 5, 9, 'POD', 'Ordered');
+insert into orders (Date, Cust_Id, Quantity, Payment_type, Status) values('2021-11-09', 7, 5, 'Online', 'Ordered');
