@@ -24,7 +24,10 @@ public class Employee {
 	@Column(name = "email")
 	private String email;
 	
-	public Employee() {}
+	public Employee() {
+		
+//		this.firstName = "<ENTER YOUR FIRST NAME>";
+	}
 	
 	public Employee(String firstName, String lastName, String email) {
 		
