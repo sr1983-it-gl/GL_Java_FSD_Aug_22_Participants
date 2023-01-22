@@ -2217,3 +2217,7 @@
 2023-01-23 00:10:23,521 [Worker-91: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /tta/src/main/resources
 2023-01-23 00:10:23,525 [Worker-91: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /tta/src/main/resources
 2023-01-23 00:10:23,530 [Worker-91: Importing Maven projects] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /tta/src/test/java
+2023-01-23 00:10:25,378 [Worker-91: Importing Maven projects] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 4 sec
+2023-01-23 00:10:25,823 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource
+2023-01-23 00:10:25,837 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 4 resources
+2023-01-23 00:10:25,856 [Worker-90: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\sr198\Downloads\G2B3_BED_GradedProject3-main\TTA\src\test\resources
