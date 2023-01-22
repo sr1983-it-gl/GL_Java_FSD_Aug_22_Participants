@@ -1,4 +1,5 @@
-content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"/>
+Refactoring.savealleditors=true
+content_assist_lru_history=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?><history maxLHS\="100" maxRHS\="10"><lhs name\="java.lang.Enum"><rhs name\="jakarta.persistence.GenerationType"/></lhs><lhs name\="java.lang.constant.Constable"><rhs name\="jakarta.persistence.GenerationType"/></lhs><lhs name\="com.greatlearning.ems.entity.Employee"><rhs name\="com.greatlearning.ems.entity.Employee"/></lhs></history>
 content_assist_number_of_computers=15
 content_assist_proposals_background=255,255,255
 content_assist_proposals_foreground=0,0,0
