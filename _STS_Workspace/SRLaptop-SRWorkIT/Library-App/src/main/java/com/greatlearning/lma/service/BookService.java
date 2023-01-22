@@ -6,5 +6,13 @@ import com.greatlearning.lma.entity.Book;
 
 public interface BookService {
 
-	List<Book> listAll();
+	public List<Book> findAll();
+
+	public Book findById(int theId);
+
+	public void save(Book theBook);
+
+	public void deleteById(int theId);
+
+	public List<Book> searchBy(String bookName, String authorName);
 }

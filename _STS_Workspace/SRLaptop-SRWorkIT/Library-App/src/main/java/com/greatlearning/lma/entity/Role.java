@@ -11,34 +11,19 @@ import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;
 
-@Entity
-@Table(name = "book")
 @Getter
 @Setter
 @Data
-public class Book {
+
+@Entity
+@Table(name = "roles")
+public class Role {
 
 	@Id
+	@Column(name = "role_id")
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name = "id")
-	private int id;
+	private Integer id;
 	
-	@Column(name = "NAME")
+	@Column(name = "name")
 	private String name;
-
-	@Column(name = "AUTHOR")
-	private String author;
-
-	@Column(name = "CATEGORY")
-	private String category;
-	
-	public Book() {}
-
-	public Book(String name, String category, String author) {
-		super();
-		this.name = name;
-		this.category = category;
-		this.author = author;
-	}
-	
 }

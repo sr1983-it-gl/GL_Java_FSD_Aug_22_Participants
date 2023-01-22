@@ -13,12 +13,43 @@ import com.greatlearning.lma.service.BookService;
 public class BookServiceImpl implements BookService{
 
 	@Autowired
-	private BookRepository bookRepository;
-	
+	BookRepository bookRepository;
+
 	@Override
-	public List<Book> listAll() {
-		
-		return bookRepository.findAll();
+	public List<Book> findAll() {
+		// TODO Auto-generated method stub
+		List<Book> books=bookRepository.findAll();
+		return books;
 	}
 
+	@Override
+	public Book findById(int theId) {
+		// TODO Auto-generated method stub
+		return bookRepository.findById(theId).get();
+	}
+
+	@Override
+	public void save(Book theBook) {
+		// TODO Auto-generated method stub
+		bookRepository.save(theBook);
+		
+	}
+
+	@Override
+	public void deleteById(int theId) {
+		// TODO Auto-generated method stub
+		bookRepository.deleteById(theId);
+		
+	}
+
+	@Override
+	public List<Book> searchBy(String bookName, String authorName) {
+		
+		List<Book> searchResults = 
+		bookRepository.findByNameContainsAndAuthorContainsIgnoreCase(
+			bookName, authorName);
+		
+		// TODO Auto-generated method stub
+		return searchResults;
+	}
 }
