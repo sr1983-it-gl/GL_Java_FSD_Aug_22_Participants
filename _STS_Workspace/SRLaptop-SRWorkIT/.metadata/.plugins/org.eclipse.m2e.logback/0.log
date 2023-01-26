@@ -2432,3 +2432,4 @@
 2023-01-26 10:57:57,844 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
 2023-01-26 10:57:57,846 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2023-01-26 10:57:57,846 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered properties files.
+2023-01-26 10:57:57,846 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\sr198\Git\GreatLearning\Batches\GL-JavaFSD-Aug-22\GL_Java_FSD_Aug_22_Participants\_STS_Workspace\SRLaptop-SRWorkIT\StudentRegistrationSystem\src\test\resources
