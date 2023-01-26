@@ -25,7 +25,7 @@ public class StudentController {
 		
 		System.out.println("Students->" + students);
 		
-		model.addAttribute("students", students);
+		model.addAttribute("Students", students);
 		
 		// view 
 		return "list-students";
