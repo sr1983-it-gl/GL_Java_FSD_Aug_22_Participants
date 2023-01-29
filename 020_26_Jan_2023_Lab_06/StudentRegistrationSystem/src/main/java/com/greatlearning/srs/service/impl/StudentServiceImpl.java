@@ -23,9 +23,15 @@ public class StudentServiceImpl
 	}
 
 	@Override
-	public void add(Student student) {
+	public void save(Student student) {
 				
 		repository.save(student);
+	}
+
+	@Override
+	public Student findById(int id) {
+		
+		return repository.findById(id).get();
 	}
 
 }

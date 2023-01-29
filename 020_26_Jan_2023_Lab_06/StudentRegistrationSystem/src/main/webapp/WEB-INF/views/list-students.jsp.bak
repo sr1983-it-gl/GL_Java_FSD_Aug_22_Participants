@@ -29,7 +29,7 @@
 
 		<c:url var="addFormUrl" value="/students/showFormForAdd" />
 		<!-- Add a button -->
-		<a href=""
+		<a href="${addFormUrl}"
 			class="btn btn-primary btn-sm mb-3"> Add Student </a> 
 			
 		<c:url var="logoutUrl" value="/logout" />
@@ -63,6 +63,20 @@
 						<td><c:out value="${tempStudent.course}" /></td>
 						<td><c:out value="${tempStudent.country}" /></td>
 
+						<td>
+
+							<!-- Add "update" button/link --> 
+							
+							<c:url var="updateUrl" value="/students/showFormForUpdate?studentId=${tempStudent.id}" />
+							
+							<a
+							href=""
+
+							class="btn btn-info btn-sm"> Update 
+							</a> 
+
+						</td>	
+		
 					</tr>
 				</c:forEach>
 

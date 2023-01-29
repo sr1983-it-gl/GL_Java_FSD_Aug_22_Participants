@@ -59,6 +59,12 @@ public class StudentController {
 		
 		if(id!=0)
 		{
+			theStudent = studentService.findById(id);
+			
+			theStudent.setFirstName(firstName);
+			theStudent.setLastName(lastName);
+			theStudent.setCourse(course);			
+			theStudent.setCountry(country);			
 		}
 		else
 		{
@@ -66,12 +72,29 @@ public class StudentController {
 		}
 		
 		// save the Student Record
-		studentService.add(theStudent);
+		studentService.save(theStudent);
 
 
 		// use a redirect to prevent duplicate submissions
 		return "redirect:/students/list";
 
 	}	
+
+	
+	@RequestMapping("/showFormForUpdate")
+	public String showFormForUpdate(
+			@RequestParam("studentId") int theId,
+			Model theModel) {
+
+		// get the Student  from the service
+		Student theStudent = studentService.findById(theId);
+
+
+		// set Student as a model attribute to pre-populate the form
+		theModel.addAttribute("Student", theStudent);
+
+		// send over to our form
+		return "Student-form";			
+	}
 	
 }
