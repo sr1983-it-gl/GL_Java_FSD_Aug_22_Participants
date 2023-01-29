@@ -24,7 +24,7 @@ public class Student {
 	@Id
 	@Column(name = "ID")
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Integer id;
+	private int id;
 	
 	@Column(name = "FIRST_NAME")	
 	private String firstName;
@@ -38,4 +38,16 @@ public class Student {
 	@Column(name = "COUNTRY")		
 	private String country;
 	
+	public Student() {
+		
+	}
+	
+	public Student(String fname, String lname, String course, String country) {
+		
+		this.firstName = fname;
+		this.lastName = lname;
+		this.course = course;
+		this.country = country;
+				
+	}
 }

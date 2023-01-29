@@ -29,7 +29,7 @@
 
 		<c:url var="addFormUrl" value="/students/showFormForAdd" />
 		<!-- Add a button -->
-		<a href="${addFormUrl}"
+		<a href=""
 			class="btn btn-primary btn-sm mb-3"> Add Student </a> 
 			
 		<c:url var="logoutUrl" value="/logout" />

@@ -7,4 +7,7 @@ import com.greatlearning.srs.entity.Student;
 public interface StudentService {
 
 	List<Student> listAll();
+
+	void add(Student student);
+	
 }

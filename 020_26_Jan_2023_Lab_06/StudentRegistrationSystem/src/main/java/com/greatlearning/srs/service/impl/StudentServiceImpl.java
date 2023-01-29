@@ -22,4 +22,10 @@ public class StudentServiceImpl
 		return repository.findAll();
 	}
 
+	@Override
+	public void add(Student student) {
+				
+		repository.save(student);
+	}
+
 }
