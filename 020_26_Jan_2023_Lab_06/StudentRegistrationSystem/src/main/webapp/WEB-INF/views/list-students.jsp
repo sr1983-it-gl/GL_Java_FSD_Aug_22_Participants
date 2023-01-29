@@ -75,6 +75,23 @@
 							class="btn btn-info btn-sm"> Update 
 							</a> 
 
+
+							<c:url var="deleteUrl" value="/students/delete?studentId=${tempStudent.id}" />
+
+
+							<a href="${deleteUrl}"
+
+
+							class="btn btn-danger btn-sm"
+
+
+							onclick="if (!(confirm('Are you sure you want to delete this Student?'))) return false">
+
+
+								Delete 
+							</a>
+	
+	
 						</td>	
 		
 					</tr>

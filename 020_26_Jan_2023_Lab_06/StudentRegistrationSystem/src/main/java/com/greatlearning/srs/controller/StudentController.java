@@ -97,4 +97,16 @@ public class StudentController {
 		return "Student-form";			
 	}
 	
+	
+	@RequestMapping("/delete")
+	public String delete(@RequestParam("studentId") int theId) {
+		// delete the Student Record
+
+		studentService.deleteById(theId);
+
+		// redirect to /student/list
+
+		return "redirect:/students/list";
+	}	
+	
 }

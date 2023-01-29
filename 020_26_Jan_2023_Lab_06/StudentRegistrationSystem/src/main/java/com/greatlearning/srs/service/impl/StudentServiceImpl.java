@@ -34,4 +34,10 @@ public class StudentServiceImpl
 		return repository.findById(id).get();
 	}
 
+	@Override
+	public void deleteById(int id) {
+		
+		repository.deleteById(id);		
+	}
+
 }
