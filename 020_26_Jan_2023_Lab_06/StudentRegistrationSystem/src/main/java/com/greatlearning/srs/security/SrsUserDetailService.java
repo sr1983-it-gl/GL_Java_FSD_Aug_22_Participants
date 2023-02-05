@@ -25,5 +25,4 @@ public class SrsUserDetailService implements UserDetailsService{
 		// TODO Auto-generated method stub
 		return userDetails;
 	}
-
 }
